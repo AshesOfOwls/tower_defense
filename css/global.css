@@ -1,0 +1,360 @@
+body {
+	background-color: #13151c;
+}
+
+#map {
+	background-image: url('../img/map1.jpg');
+	height: 700px;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#spawn {
+	left: 60px;
+}
+
+.zone {
+	position: absolute;
+	z-index: 1;
+	height: 60px;
+	width: 60px;
+}
+
+.skeleton {
+	background: transparent url('../img/sprites/monsters/skeleton.png') 0 0 no-repeat;
+	position: absolute;
+	width: 25px;
+	height: 58px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 2000;
+	cursor: crosshair;
+}
+
+.pidgeotto {
+	background: transparent url('../img/sprites/monsters/pidgeotto.png') 0 0 no-repeat;
+	position: absolute;
+	width: 83px;
+	height: 74px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 2000;
+	cursor: crosshair;
+}
+
+.behemoth {
+	background: transparent url('../img/sprites/monsters/behemoth.png') 0 0 no-repeat;
+	position: absolute;
+	width: 101px;
+	height: 99px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 2000;
+	cursor: crosshair;
+}
+
+.caterpillar {
+	background: transparent url('../img/sprites/monsters/caterpillar.png') 0 0 no-repeat;
+	position: absolute;
+	width: 64px;
+	height: 48px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 2000;
+	cursor: crosshair;
+}
+
+.player {
+	background: transparent url('../img/sprites/monsters/player_sprite.png') 0 0 no-repeat;
+	position: absolute;
+	width: 65px;
+	height: 62px;
+	top: -34px;
+	left: -20px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.magdamonster {
+	background: transparent url('../img/sprites/monsters/magdaMonster.png') 0 0 no-repeat;
+	position: absolute;
+	width: 47px;
+	height: 50px;
+	top: -34px;
+	left: -20px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.reddragon {
+	background: transparent url('../img/sprites/monsters/redDragon.png') 0 0 no-repeat;
+	position: absolute;
+	width: 76px;
+	height: 78px;
+	top: -44px;
+	left: -25px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.gargoyle {
+	background: transparent url('../img/sprites/monsters/gargoyle.png') 0 0 no-repeat;
+	position: absolute;
+	width: 76px;
+	height: 75px;
+	top: -44px;
+	left: -25px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.goblins {
+	background: transparent url('../img/sprites/monsters/goblins.png') 0 0 no-repeat;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: -44px;
+	left: -25px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.ogre {
+	background: transparent url('../img/sprites/monsters/ogre.png') 0 0 no-repeat;
+	position: absolute;
+	width: 55px;
+	height: 60px;
+	top: -44px;
+	left: -25px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.gyrocopter {
+	background: transparent url('../img/sprites/monsters/gyrocopter.png') 0 0 no-repeat;
+	position: absolute;
+	width: 70px;
+	height: 66px;
+	top: -44px;
+	left: -25px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.tower1 {
+	background: transparent url('../img/sprites/towers/tower2.png') 0 0 no-repeat;
+	position: absolute;
+	width: 63px;
+	height: 63px;
+	right: 0px;
+	top: -12px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.tower2 {
+	background: transparent url('../img/sprites/towers/tower1.png') 0 0 no-repeat;
+	position: absolute;
+	width: 63px;
+	height: 63px;
+	right: 0px;
+	top: -12px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.tower3 {
+	background: transparent url('../img/sprites/towers/tower3.png') 0 0 no-repeat;
+	position: absolute;
+	width: 63px;
+	height: 63px;
+	right: 0px;
+	top: -12px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.tower4 {
+	background: transparent url('../img/sprites/towers/tower4.png') 0 0 no-repeat;
+	position: absolute;
+	width: 59px;
+	height: 59px;
+	right: 0px;
+	top: -12px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 3000;
+	cursor: pointer;
+}
+
+.arrow {
+	position: absolute;
+	background: url('../img/sprites/weapons/greenArrow.png') no-repeat;
+	background-position: 5px 8px;
+	left: 16px;
+	top: 30px;
+	height: 40px;
+	width: 40px;
+}
+
+.cannonBall {
+	position: absolute;
+	background: url('../img/sprites/weapons/cannonBall.png') no-repeat;
+	background-position: 1px 2px;
+	left: 16px;
+	top: 30px;
+	height: 40px;
+	width: 40px;
+}
+
+.photon {
+	position: absolute;
+	background: url('../img/sprites/weapons/photon.png') no-repeat;
+	background-position: 1px 2px;
+	left: 16px;
+	top: 30px;
+	height: 40px;
+	width: 40px;
+}
+
+.coin {
+	position: absolute;
+	background: url('../img/sprites/coin.png') no-repeat;
+	height: 19px;
+	width: 11px;
+}
+
+.fireball {
+	position: absolute;
+	background: url('../img/sprites/weapons/fireball.png') no-repeat;
+	background-position: 1px 2px;
+	left: 16px;
+	top: 30px;
+	height: 40px;
+	width: 40px;
+}
+
+#lives {
+	position: absolute;
+	color: #fff;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 50px;
+	left: 758px;
+	top: 30px;
+	width: 75px;
+	text-align: center;
+}
+
+#level {
+	position: absolute;
+	color: #fff;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 50px;
+	left: 858px;
+	top: 30px;
+	width: 75px;
+	text-align: center;
+}
+
+#money {
+	position: absolute;
+	color: #fff;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 26px;
+	left: 138px;
+	top: 40px;
+	width: 105px;
+	text-align: center;
+}
+
+#countdown {
+	position: absolute;
+	color: #fff;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 26px;
+	left: -25px;
+	top: 40px;
+	width: 105px;
+	text-align: center;
+}
+
+.healthBar {
+	border: 1px solid black;
+	width: 50px;
+	height: 3px;
+	position: relative;
+	margin: 0 auto;
+	top: -6px;
+	background: url('../img/health.png') no-repeat;
+}
+
+#buybox {
+	position: absolute;
+	left: 280px;
+	top: 10px;
+}
+
+#buyTower1 {
+	height: 80px;
+	width: 60px;
+	background: url('../img/buybox/tower1_img.png') no-repeat;
+	cursor: pointer;
+	float: left;
+}
+
+#buyTower2 {
+	height: 80px;
+	width: 60px;
+	background: url('../img/buybox/tower2_img.png') no-repeat;
+	cursor: pointer;
+	float: left;
+}
+
+#buyTower3 {
+	height: 80px;
+	width: 60px;
+	background: url('../img/buybox/tower3_img.png') no-repeat;
+	cursor: pointer;
+	float: left;
+}
+
+#buyTower4 {
+	height: 80px;
+	width: 60px;
+	background: url('../img/buybox/tower4_img.png') no-repeat;
+	cursor: pointer;
+	float: left;
+}
